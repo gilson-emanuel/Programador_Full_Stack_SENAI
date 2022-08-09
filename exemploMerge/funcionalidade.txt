@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+aqui tem um login
+=======
+aqui tem uma senha
+>>>>>>> funcionalidade2

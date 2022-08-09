@@ -1,0 +1,11 @@
+1. O algoritmo verifica a data atual;
+2. O algoritmo verifica se a data do evento é posterior a data atual;
+2.1. Se a data do evento for posterior a data atual ele continua, caso não, informa que o cadastro não foi permitido pois o período de inscrição já encerrou;
+3. Algoritmo solicita que o usuário digite o nome completo do participante;
+4. Algoritmo solicita a idade do participante;
+4.1. Se a idade do participante é maior que 18 anos ele continua, caso não, informa que o cadastro não é permitido para quem possui 18 anos ou menos, e pergunta se ele deseja cadastrar outro participante.
+4.2. Caso ele deseje cadastrar outro participante o algoritmo volta pro etapa 3;
+5. Algoritmo verifica se a quantidade de participantes cadastrados anteriormente é inferior a 100;
+5.1 Se a quantidade de participante já cadastrados é inferior a 100 ele continua, caso não, informa que o cadastro não é permitido pois o limite de participante está excedido;
+6. Algoritmo mostra a lista de participante e palestrante do evento;
+7. Algoritmo pergunta se o usuário deseja cadastrar outro participante, caso sim, ele volta para a etapa 3, caso não o sistema encerra. 
